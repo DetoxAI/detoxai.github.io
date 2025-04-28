@@ -57,11 +57,8 @@
                 <span class="author-block">
                   <a href="https://michal-wilinski.com" target="_blank">Michal Wilinski</a><sup>*</sup>
                 </span>
-              </div>
-
-              <div class="is-size-5 publication-authors">
                 <span class="author-block">
-                  Supervisor: <a href="https://www.cs.put.poznan.pl/jstefanowski/" target="_blank">Jerzy Stefanowski</a>
+                  <a href="https://www.cs.put.poznan.pl/jstefanowski/" target="_blank">Jerzy Stefanowski</a>
                 </span>
               </div>
 
@@ -110,15 +107,179 @@
                     </a>
                   </span>
               </div>
+              
+              <div style="margin-top: 2rem;">
+                <h2 class="title is-4 has-text-centered">How DetoxAI Works</h2>
+                <figure class="image">
+                  <img src="static/images/full_workflow.jpg" alt="DetoxAI Workflow" style="max-width: 90%; margin: 0 auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+                  <figcaption class="has-text-centered" style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+                    DetoxAI transforms biased neural networks into fair and balanced models with minimal code integration.
+                  </figcaption>
+                </figure>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="hero teaser" style="margin-top: -1.5rem;">
+    <section class="section" style="padding-top: 0;">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column is-four-fifths">
+            <h2 class="title is-3 has-text-centered">Key Features</h2>
+            <div class="columns is-multiline">
+              <div class="column is-half">
+                <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                  <div class="card-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                    <p class="title is-4">
+                      <span class="icon" style="color: #01628b;">
+                        <i class="fas fa-tools"></i>
+                      </span>
+                      Multiple Debiasing Methods
+                    </p>
+                    <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                      <div>
+                        <p>DetoxAI includes several state-of-the-art debiasing techniques:</p>
+                        <ul>
+                          <li>
+                            ClArC family 
+                            <a href="https://www.sciencedirect.com/science/article/pii/S1566253521001573" target="_blank" title="View paper">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-file-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>
+                            Zhang et al. 
+                            <a href="https://arxiv.org/abs/1801.07593" target="_blank" title="View paper">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-file-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>
+                            Savani et al. 
+                            <a href="https://arxiv.org/abs/2006.08564" target="_blank" title="View paper">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-file-alt"></i></span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mt-4 has-text-right" style="margin-top: 2rem !important;">
+                        <a href="https://detoxai.readthedocs.io/en/latest/tutorials.adding_a_method.html" target="_blank">Learn how to add your own method →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                  <div class="card-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                    <p class="title is-4">
+                      <span class="icon" style="color: #01628b;">
+                        <i class="fas fa-database"></i>
+                      </span>
+                      Dataset Integration
+                    </p>
+                    <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                      <div>
+                        <p>Works with popular datasets out of the box:</p>
+                        <ul>
+                          <li>
+                            CelebA
+                            <a href="https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html" target="_blank" title="Visit dataset page">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-external-link-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>
+                            FairFace
+                            <a href="https://arxiv.org/abs/1908.04913" target="_blank" title="View paper">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-file-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>
+                            CIFAR-10/100
+                            <a href="https://www.cs.toronto.edu/~kriz/cifar.html" target="_blank" title="Visit dataset page">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-external-link-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>
+                            Caltech101
+                            <a href="https://data.caltech.edu/records/mzrjq-6wc02" target="_blank" title="Visit dataset page">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-external-link-alt"></i></span>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="mt-4 has-text-right" style="margin-top: 2rem !important;">
+                        <a href="https://detoxai.readthedocs.io/en/latest/tutorials.dataset.html" target="_blank">Learn how to use datasets →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                  <div class="card-content" style="display: flex; flex-direction: column; flex-grow: 1;">
+                    <p class="title is-4">
+                      <span class="icon" style="color: #01628b;">
+                        <i class="fas fa-chart-line"></i>
+                      </span>
+                      Visualization Tools
+                    </p>
+                    <div class="content" style="flex-grow: 1; display: flex; flex-direction: column;">
+                      <div>
+                        <p>Powerful tools to understand and visualize bias:</p>
+                        <ul>
+                          <li>
+                            Saliency maps with Layer-wise Relevance Propagation
+                            <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130140" target="_blank" title="View paper">
+                              <span class="icon is-small" style="color: #01628b;"><i class="fas fa-file-alt"></i></span>
+                            </a>
+                          </li>
+                          <li>Side-by-side comparisons of original vs. debiased models</li>
+                          <li>Aggregate visualizations to track focus shift</li>
+                        </ul>
+                      </div>
+                      <div class="mt-4 has-text-right" style="margin-top: 2rem !important;">
+                        <a href="https://detoxai.readthedocs.io/en/latest/detoxai.visualization.html" target="_blank">Explore visualization tools →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-half">
+                <div class="card" style="height: 100%; display: flex; flex-direction: column;">
+                  <div class="card-content" style="display: flex; flex-direction: column; height: 100%;">
+                    <p class="title is-4">
+                      <span class="icon" style="color: #01628b;">
+                        <i class="fas fa-laptop-code"></i>
+                      </span>
+                      Simple API
+                    </p>
+                    <div class="content" style="display: flex; flex-direction: column; flex: 1;">
+                      <div>
+                        <p>DetoxAI is designed to be easy to use:</p>
+                        <ul>
+                          <li>Works with existing PyTorch models</li>
+                          <li>Integrates with standard dataloaders</li>
+                          <li>Single function call to apply multiple methods</li>
+                        </ul>
+                      </div>
+                      <div style="margin-top: auto; padding-top: 2rem; text-align: right;">
+                        <a href="https://detoxai.readthedocs.io/en/latest/examples/example.html" target="_blank">See a complete example →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero teaser">
       <div class="container is-max-desktop">
         <div class="hero-body">
+          <h2 class="title is-3 has-text-centered">Quick Start</h2>
           <div class="code-snippet">
             <div class="code-header" style="background-color: #1e1e1e; color: #d4d4d4; padding: 8px 15px; border-top-left-radius: 6px; border-top-right-radius: 6px; display: flex; align-items: center;">
               <span style="margin-right: 10px;"><i class="fas fa-code"></i></span>
@@ -149,21 +310,6 @@ model = corrected[<span style="color: #005eff;">"SAVANIAFT"</span>].<span style=
           <h2 class="subtitle has-text-centered" style="margin-top: 1.5rem;">
             DetoxAI provides a simple API for debiasing neural networks in image classification tasks.
           </h2>
-        </div>
-      </div>
-    </section>
-
-    <section class="section hero is-light">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered has-text-centered">
-          <div class="column is-four-fifths">
-            <h2 class="title is-3">Abstract</h2>
-            <div class="content has-text-justified">
-              <p>
-                Machine learning (ML) systems have achieved remarkable success across numerous domains due to their predictive capabilities. However, their widespread adoption gives rise to many ethical concerns, particularly in light of recent regulations that posit fairness as a legal requirement. While foundational research on fairness has produced effective toolkits for tabular data, these approaches have become prohibitively expensive when adapted to deep learning systems dealing with high-dimensional data such as images. The absence of specialized debiasing methods and proper software frameworks leaves a critical gap in addressing fairness issues for these systems. To address these challenges, we introduce DetoxAI, a Python-based software framework for post-hoc debiasing of neural networks in image classification tasks. Designed with deep learning in mind, DetoxAI integrates state-of-the-art interventions, evaluation metrics, and visualization tools into a unified, production-ready ecosystem. Our approach applies post-training adaptation, allowing users to mitigate bias while maintaining model performance. Focusing on high-level semantic representations, DetoxAI addresses the unique challenges posed by vision data, where protected attributes such as race or gender are not explicitly encoded. This toolkit provides a modular interface for bias mitigation, making it accessible and adaptable for real-world applications. Through experimental studies, we quantitatively demonstrate that DetoxAI reliably improves upon baseline vanilla models on a fairness-performance trade-off. Moreover, with attribution maps, we qualitatively show that DetoxAI's methods can shift the model's focus away from protected attributes.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
